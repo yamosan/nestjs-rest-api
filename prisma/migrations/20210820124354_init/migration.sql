@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Tasks" (
+CREATE TABLE "Task" (
     "id" SERIAL NOT NULL,
     "text" TEXT,
     "completed" BOOLEAN DEFAULT false,

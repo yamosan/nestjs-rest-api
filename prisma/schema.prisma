@@ -7,7 +7,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Tasks {
+model Task {
   id        Int @id @default(autoincrement())
   text      String?
   completed Boolean? @default(false)
